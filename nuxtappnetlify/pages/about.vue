@@ -1,0 +1,3 @@
+<template>
+	heloo about
+</template>
