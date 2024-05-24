@@ -1,7 +1,7 @@
 <template>
 	<main class="user-layout">
 	<article class="sidebar">
-		<p>Dashboard</p>
+		<p class="font-bold text-5xl">Dashboard</p>
 		<p>settings</p>
 		<p>summa</p>
 	</article>
