@@ -6,7 +6,10 @@
 			</div>
 			<div class="text-center">
 				<h1 class="text-3xl">iphone {{ name }}</h1>
-				<button @click="addToCart" class="p-3 bg-indigo-800 text-white rounded-md mt-5 w-48">Buy Now</button>
+				<button @click="addToCart" class="p-3 bg-indigo-800 text-white rounded-md mt-5 w-48">
+					<span v-if="isInCart()"> remove from cart </span>
+					<span v-else> Buy Now </span>
+				</button>
 			</div>
 		</div>
 	</div>
@@ -26,16 +29,17 @@ const fullname = computed(() => {
 const cart = useCart();
 
 function isInCart(){
-  return !!cart.value.find( ct => ct.name ===fullname.value)
+  return !!cart.value.find( ct => ct.name === fullname.value);
 }
 
 
 function addToCart() {
 if (!isInCart()) {
 	cart.value.push({name: fullname});
+}else{
+	cart.value = cart.value.filter((ct) => ct.name !== fullname.value);
 }	
 }
-
 useHead({
   title: `Nuxt-3 - iphone ${name.value}`, // Use name.value for computed property 
 }); 
