@@ -1,10 +1,10 @@
 <template>
-	<p>sundhar</p>
-	<slot></slot>
+  <p>Welcome sundhar</p>
 </template>
 
-<script setup>
-	definePageMeta ({
-		layout: "sidebar",
-	});
+<script>
+definePageMeta({
+  layout: "sidebar",
+  middleware: ["auth"],
+});
 </script>

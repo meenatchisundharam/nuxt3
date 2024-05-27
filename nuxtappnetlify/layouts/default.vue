@@ -1,7 +1,7 @@
 <template>
-	<div>
-		<Navbar />
-
-	<slot></slot>
-	</div>
+  <div>
+    <Navbar />
+    <!-- here nuxt will replace page content -->
+    <slot></slot>
+  </div>
 </template>

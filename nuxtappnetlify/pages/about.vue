@@ -1,11 +1,10 @@
 <template>
-	<div>
-	heloo about
-	</div>
+  <div>Hello About</div>
 </template>
 
-<script setup>
-	definePageMeta({
-		layout: false,
-	});
+<script>
+definePageMeta({
+  layout: false,
+  title: "About",
+});
 </script>

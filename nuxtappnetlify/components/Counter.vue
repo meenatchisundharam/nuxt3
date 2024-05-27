@@ -1,17 +1,17 @@
 <template>
-   <button @click="increment">increment</button>
-    <p>{{ count }}</p>
-    <button @click="decrement">decrement</button>
+  <button @click="increment">Increment</button>
+  <p>{{ count }}</p>
+  <button @click="decrement">Decrement</button>
 </template>
 
 <script setup>
-  const count = ref(0);
-  function increment() {
-    // body...
-    count.value++;
-  }
-  function decrement() {
-    count.value--;
-  }
-</script>
+const count = ref(0);
 
+function increment() {
+  count.value++;
+}
+
+function decrement() {
+  count.value--;
+}
+</script>
