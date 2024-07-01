@@ -28,22 +28,22 @@
     },
     {
       title: "Transaction",
-      path: "/transaction",
+      path: "/transactions",
       icon: "grommet-icons:transaction"
     },
     {
       title: "Account",
-      path: "/account",
+      path: "/",
       icon: "codicon:account"
     },
     {
       title: "Contacts",
-      path: "/contacts",
+      path: "/",
       icon: "material-symbols-light:contacts"
     },
     {
       title: "Settings",
-      path: "/settings",
+      path: "/",
       icon: "ic:outline-settings"
     },
   ])

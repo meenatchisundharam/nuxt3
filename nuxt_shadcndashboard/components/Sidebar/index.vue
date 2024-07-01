@@ -12,7 +12,7 @@
 		<div class="hidden lg:flex w-[250px] h-screen flex flex-col justify-between border-r">
 			<SidebarMenu />
 			<div>
-				useritem
+				<UserItem/>
 			</div>
 		</div>
 	</div>
