@@ -1,10 +1,4 @@
-<script setup>
-
-</script>
 
 <template>
-    <div class="Main">
-        <ProfileHeaderAvatar />
-        
-    </div>
+    <div class="Main">Main page </div>
 </template>
