@@ -1,18 +1,11 @@
 <script setup lang="ts">
-const counter = useCounter();
+import { useCounterStore } from "~/stores/myStore";
+const store = useCounterStore();
+console.log(store);
 </script>
 
 <template>
   <div>
-    <div id="Main">
-    Counter: {{ counter }}
-    <button @click="counter++">
-      +
-    </button>
-    <button @click="counter--">
-      -
-    </button>
-  </div>
-  <Counter id="main" />
+    hello
   </div>
 </template>
