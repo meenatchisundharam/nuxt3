@@ -1,6 +1,6 @@
 <script setup>
-const { sayHello } = useUtils();
-sayHello();
+const { $sayHello } = useNuxtApp();
+$sayHello("sundhar");
 </script>
 <template>
     <div class="container py-3 mx-auto Main">
