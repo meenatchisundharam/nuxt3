@@ -1,10 +1,8 @@
-<script setup lang="ts">
+<script setup>
 const counter = useCounter();
 </script>
-
 <template>
-  <div>
-    <div id="Main">
+     <div>
     Counter: {{ counter }}
     <button @click="counter++">
       +
@@ -12,7 +10,5 @@ const counter = useCounter();
     <button @click="counter--">
       -
     </button>
-  </div>
-  <Counter id="main" />
   </div>
 </template>
