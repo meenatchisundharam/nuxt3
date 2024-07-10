@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const {  data: productCount, pending } = await useAsyncData("products",()=>
+const {  data: productCount, pending } = await useLazyAsyncData("products",()=>
   $fetch("/api/products")
 );
 const refresh = () => refreshNuxtData("products");
