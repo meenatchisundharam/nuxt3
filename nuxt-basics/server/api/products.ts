@@ -1,6 +1,13 @@
-import data from "./products.json";
-export default defineEventHandler(()=> {
-    return{
-        data,
+let productCount = 0;
+
+export default async () => {
+    await new Promise((resolve) => {
+        setTimeout(() => {
+            resolve( productCount++);
+        }, 2000);
+    });
+
+    return {
+        productCount,
     };
-});
+};
