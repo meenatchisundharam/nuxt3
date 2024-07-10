@@ -1,4 +1,7 @@
-<script setup>
+<script setup lang="ts">
+useHead({
+    title:'profile-page',
+});
 </script>
 <template>
     <div class="container py-3 mx-auto Main">
