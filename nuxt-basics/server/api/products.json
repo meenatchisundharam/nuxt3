@@ -1,0 +1,62 @@
+[
+    {
+        "name": "product 1",
+        "price": 9.99,
+        "description": "this is the first product in the array",
+        "image-url": "http://example.com/product1.jpg"
+    },
+    {
+        "name": "product 2",
+        "price": 19.99,
+        "description": "this is the second product in the array",
+        "image-url": "http://example.com/product2.jpg"
+    },
+    {
+        "name": "product 3",
+        "price": 29.99,
+        "description": "this is the third product in the array",
+        "image-url": "http://example.com/product3.jpg"
+    },
+    {
+        "name": "product 4",
+        "price": 39.99,
+        "description": "this is the fourth product in the array",
+        "image-url": "http://example.com/product4.jpg"
+    },
+    {
+        "name": "product 5",
+        "price": 49.99,
+        "description": "this is the fifth product in the array",
+        "image-url": "http://example.com/product5.jpg"
+    },
+    {
+        "name": "product 6",
+        "price": 59.99,
+        "description": "this is the sixth product in the array",
+        "image-url": "http://example.com/product6.jpg"
+    },
+    {
+        "name": "product 7",
+        "price": 69.99,
+        "description": "this is the seventh product in the array",
+        "image-url": "http://example.com/product7.jpg"
+    },
+    {
+        "name": "product 8",
+        "price": 79.99,
+        "description": "this is the eighth product in the array",
+        "image-url": "http://example.com/product8.jpg"
+    },
+    {
+        "name": "product 9",
+        "price": 89.99,
+        "description": "this is the ninth product in the array",
+        "image-url": "http://example.com/product9.jpg"
+    },
+    {
+        "name": "product 10",
+        "price": 99.99,
+        "description": "this is the tenth product in the array",
+        "image-url": "http://example.com/product10.jpg"
+    }
+]

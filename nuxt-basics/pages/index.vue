@@ -1,10 +1,11 @@
 <script setup lang="ts">
-const response = await $fetch('/api/hello')
-console.log(response);
+const { data: products } = await useFetch('/api/products', {
+  transform: (_products) => _products.data,
+});
 </script>
 
 <template>
   <div>
-    hello
+    <p>{{products}}</p>>
   </div>
 </template>
