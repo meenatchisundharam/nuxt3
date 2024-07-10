@@ -2,6 +2,9 @@ import { resolve } from "path";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  hooks: {
+    ready:(ctx) => console.log(ctx),
+  },
   devtools: { enabled: true },
 
   alias: {
